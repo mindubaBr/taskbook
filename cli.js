@@ -74,7 +74,15 @@ const cli = meow(help, {
     },
     clear: {
       type: 'boolean'
-    }
+    },
+	groupdate: {
+      type: 'boolean',
+      alias: 'gd'
+    },
+	renameboard: {
+	type: 'boolean',
+	alias: 'rb'
+	}
   }
 });
 

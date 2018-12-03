@@ -1,0 +1,7 @@
+organization=mindubabr-github
+projectKey=mindubaBr_taskbook
+serverUrl=https://sonarcloud.io
+serverVersion=7.4.0.18617
+dashboardUrl=https://sonarcloud.io/dashboard?id=mindubaBr_taskbook
+ceTaskId=AWaZB6TFstHImv5SYr0H
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWaZB6TFstHImv5SYr0H

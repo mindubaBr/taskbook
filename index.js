@@ -64,6 +64,15 @@ const taskbookCLI = (input, flags) => {
   if (flags.clear) {
     return taskbook.clear();
   }
+  
+  if (flags.groupdate) {
+    taskbook.displayByDueDate();
+    return taskbook.displayStats();
+  }
+  
+	if (flags.renameboard) {
+	  return taskbook.renameboard(input);//chamada para taskbook.js
+	}
 
   taskbook.displayByBoard();
   return taskbook.displayStats();
